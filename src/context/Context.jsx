@@ -11,7 +11,7 @@ import { reducer } from "../reducer/Reducer";
 
 export const AppContext = createContext();
 
-const URL = "https://gitconnected.com/v1/portfolio/noppawat3939";
+const URL = PORTFOLIO_URL;
 
 export const useAppContext = () => {
   return useContext(AppContext);
